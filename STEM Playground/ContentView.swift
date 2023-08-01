@@ -8,15 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    let backgroundColor : Color = Color(red: 248/255, green: 245/255, blue: 235/255)
+    
+    let buttoncolor: Color = Color(red: 25/255, green: 25/255, blue: 112/255)
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            VStack(alignment: .center, spacing: 20.0){
+                Text("WELCOME TO STEM PLAYGROUND!")
+                    .font(.title)
+                    .fontWeight(.black)
+                
+                HStack{
+                    VStack{
+                        Text("Playground is an interactive space to learn more about STEM")
+                            .multilineTextAlignment(.center)
+                        
+                        Button("Playground"){
+                            
+                        }
+                        .font(.title3)
+                        .buttonStyle(.borderedProminent)
+                        .tint(buttoncolor)
+                    }
+                        
+                    VStack{
+                        Text("DIY is an interactive space to try different STEM experiments")
+                            .multilineTextAlignment(.center)
+                        
+                        Button("DIY"){
+                            
+                        }
+                        .font(.title3)
+                        .buttonStyle(.borderedProminent)
+                        .tint(buttoncolor)
+                    }
+                }
+            }
+            .padding()
+            .background(backgroundColor)
         }
-        .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
