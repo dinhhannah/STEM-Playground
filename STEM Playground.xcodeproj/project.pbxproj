@@ -13,7 +13,7 @@
 		3B497C652A79B0F1008DB50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B497C642A79B0F1008DB50E /* Preview Assets.xcassets */; };
 		3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */; };
 		3B497C722A7ADBD5008DB50E /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C712A7ADBD5008DB50E /* Playground.swift */; };
-		BE9636382A7AF1F40074F1AF /* LavaLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9636372A7AF1F40074F1AF /* LavaLamp.swift */; };
+		BE0F78852A7AF36500614758 /* LavaLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F78842A7AF36500614758 /* LavaLamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		3B497C642A79B0F1008DB50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYhomepage.swift; sourceTree = "<group>"; };
 		3B497C712A7ADBD5008DB50E /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
-		BE9636372A7AF1F40074F1AF /* LavaLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLamp.swift; sourceTree = "<group>"; };
+		BE0F78842A7AF36500614758 /* LavaLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
 				3B497C712A7ADBD5008DB50E /* Playground.swift */,
-				BE9636372A7AF1F40074F1AF /* LavaLamp.swift */,
+				BE0F78842A7AF36500614758 /* LavaLamp.swift */,
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
 				3B497C632A79B0F1008DB50E /* Preview Content */,
 			);
@@ -149,7 +149,7 @@
 				3B497C722A7ADBD5008DB50E /* Playground.swift in Sources */,
 				3B497C602A79B0EE008DB50E /* ContentView.swift in Sources */,
 				3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */,
-				BE9636382A7AF1F40074F1AF /* LavaLamp.swift in Sources */,
+				BE0F78852A7AF36500614758 /* LavaLamp.swift in Sources */,
 				3B497C5E2A79B0EE008DB50E /* STEM_PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
