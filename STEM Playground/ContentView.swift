@@ -25,8 +25,8 @@ struct ContentView: View {
                             Text("Playground is an interactive space to learn more about STEM")
                                 .multilineTextAlignment(.center)
                             
-                            Button("Playground"){
-                                
+                            NavigationLink(destination: Playground()){
+                                Text("Playground")
                             }
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
@@ -43,7 +43,6 @@ struct ContentView: View {
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .tint(buttoncolor)
-
                         }
                     }
                 }
