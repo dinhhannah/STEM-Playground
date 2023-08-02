@@ -17,9 +17,7 @@ struct ContentView: View {
             ZStack {
                 VStack(alignment: .center, spacing: 20.0){
                     Text("WELCOME TO STEM PLAYGROUND!")
-                        .font(.title)
-                        .fontWeight(.black)
-                    
+                        .font(.custom("Bryndan Write Book", size:40))
                     HStack{
                         VStack{
                             Text("Playground is an interactive space to learn more about STEM")
@@ -58,5 +56,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }

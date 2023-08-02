@@ -12,19 +12,28 @@
 		3B497C622A79B0F1008DB50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B497C612A79B0F1008DB50E /* Assets.xcassets */; };
 		3B497C652A79B0F1008DB50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B497C642A79B0F1008DB50E /* Preview Assets.xcassets */; };
 		3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */; };
+<<<<<<< HEAD
+		897859862A7AF7250017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859852A7AF7250017BAEA /* Bryndan Write Book.ttf */; };
+=======
 		3B497C722A7ADBD5008DB50E /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C712A7ADBD5008DB50E /* Playground.swift */; };
 		BE0F78852A7AF36500614758 /* LavaLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F78842A7AF36500614758 /* LavaLamp.swift */; };
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B497C5A2A79B0EE008DB50E /* STEM Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEM_PlaygroundApp.swift; sourceTree = "<group>"; };
-		3B497C5F2A79B0EE008DB50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B497C5F2A79B0EE008DB50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		3B497C612A79B0F1008DB50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B497C642A79B0F1008DB50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYhomepage.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		897859702A7ADD6D0017BAEA /* STEM-Playground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "STEM-Playground-Info.plist"; sourceTree = SOURCE_ROOT; };
+		897859852A7AF7250017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
+=======
 		3B497C712A7ADBD5008DB50E /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		BE0F78842A7AF36500614758 /* LavaLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLamp.swift; sourceTree = "<group>"; };
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +66,16 @@
 		3B497C5C2A79B0EE008DB50E /* STEM Playground */ = {
 			isa = PBXGroup;
 			children = (
+				897859702A7ADD6D0017BAEA /* STEM-Playground-Info.plist */,
 				3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */,
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
+<<<<<<< HEAD
+				897859852A7AF7250017BAEA /* Bryndan Write Book.ttf */,
+=======
 				3B497C712A7ADBD5008DB50E /* Playground.swift */,
 				BE0F78842A7AF36500614758 /* LavaLamp.swift */,
+>>>>>>> main
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
 				3B497C632A79B0F1008DB50E /* Preview Content */,
 			);
@@ -134,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897859862A7AF7250017BAEA /* Bryndan Write Book.ttf in Resources */,
 				3B497C652A79B0F1008DB50E /* Preview Assets.xcassets in Resources */,
 				3B497C622A79B0F1008DB50E /* Assets.xcassets in Resources */,
 			);
@@ -281,6 +296,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"STEM Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STEM-Playground-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +326,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"STEM Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STEM-Playground-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
