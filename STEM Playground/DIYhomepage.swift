@@ -19,10 +19,14 @@ struct DIYhomepage: View {
                         .font(.title)
                         .fontWeight(.black)
                     
+                    Text("Click on the icon of the project you would like to complete!")
+                        .multilineTextAlignment(.center)
+                    
                     HStack{
+                        
                         VStack{
-                            Text("")
-                                .multilineTextAlignment(.center)
+                            
+//                            Image("lava lamp")
                             
                             Button("LAVA LAMP"){
                                 

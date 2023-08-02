@@ -13,8 +13,8 @@ struct ContentView: View {
     let buttoncolor: Color = Color(red: 255/255, green: 68/255, blue: 58/255)
     
     var body: some View {
-        NavigationStack{
-            ZStack{
+        NavigationStack {
+            ZStack {
                 VStack(alignment: .center, spacing: 20.0){
                     Text("WELCOME TO STEM PLAYGROUND!")
                         .font(.title)
