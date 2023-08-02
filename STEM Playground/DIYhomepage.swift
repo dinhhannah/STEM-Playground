@@ -59,6 +59,7 @@ struct DIYhomepage: View {
                     }
                 }
                 .padding()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(backgroundColor)
             }
         }
