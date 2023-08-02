@@ -13,40 +13,43 @@ struct ContentView: View {
     let buttoncolor: Color = Color(red: 255/255, green: 68/255, blue: 58/255)
     
     var body: some View {
-        ZStack{
-            VStack(alignment: .center, spacing: 20.0){
-                Text("WELCOME TO STEM PLAYGROUND!")
-                    .font(.title)
-                    .fontWeight(.black)
-                
-                HStack{
-                    VStack{
-                        Text("Playground is an interactive space to learn more about STEM")
-                            .multilineTextAlignment(.center)
-                        
-                        Button("Playground"){
+        NavigationStack{
+            ZStack{
+                VStack(alignment: .center, spacing: 20.0){
+                    Text("WELCOME TO STEM PLAYGROUND!")
+                        .font(.title)
+                        .fontWeight(.black)
+                    
+                    HStack{
+                        VStack{
+                            Text("Playground is an interactive space to learn more about STEM")
+                                .multilineTextAlignment(.center)
                             
+                            Button("Playground"){
+                                
+                            }
+                            .font(.title3)
+                            .buttonStyle(.borderedProminent)
+                            .tint(buttoncolor)
                         }
-                        .font(.title3)
-                        .buttonStyle(.borderedProminent)
-                        .tint(buttoncolor)
-                    }
                         
-                    VStack{
-                        Text("DIY is an interactive space to try different STEM experiments")
-                            .multilineTextAlignment(.center)
-                        
-                        Button("DIY"){
+                        VStack{
+                            Text("DIY is an interactive space to try different STEM experiments")
+                                .multilineTextAlignment(.center)
                             
+                            NavigationLink(destination: DIYhomepage()){
+                                Text("DIY")
+                            }
+                            .font(.title3)
+                            .buttonStyle(.borderedProminent)
+                            .tint(buttoncolor)
+
                         }
-                        .font(.title3)
-                        .buttonStyle(.borderedProminent)
-                        .tint(buttoncolor)
                     }
                 }
+                .padding()
+                .background(backgroundColor)
             }
-            .padding()
-            .background(backgroundColor)
         }
     }
     
